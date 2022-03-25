@@ -17,6 +17,7 @@ const Products = () => {
     const handleAddToCart = (product) => {
         const cartItems = [...cart, product];
         setCart(cartItems);
+        // console.log(cart);
     }
 
     return (
