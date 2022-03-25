@@ -1,5 +1,5 @@
 # Daily Grocery Store
 
-This project was bootstrapped with [Live site](https://daily-grocery-store.netlify.app/).
+Here is live preview for this project [Live site](https://daily-grocery-store.netlify.app/).
 
 ## Feel free to contribute
