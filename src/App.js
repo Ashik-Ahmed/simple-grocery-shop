@@ -1,11 +1,11 @@
 import './App.css';
-import Groceries from './components/Groceries/Groceries';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Products from './components/Products/Products';
 
 function App() {
   return (
     <div className="App">
-      <Groceries></Groceries>
+      <Products></Products>
     </div>
   );
 }
