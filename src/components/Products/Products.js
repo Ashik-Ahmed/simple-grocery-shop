@@ -13,9 +13,9 @@ const Products = () => {
             .then(data => setProducts(data))
     }, [])
 
-    // add items to the cart 
+
     const handleAddToCart = (product) => {
-        const cartItems = [...cart, product];
+        const cartItems = [...cart, product.name];
         setCart(cartItems);
         // console.log(cart);
     }
