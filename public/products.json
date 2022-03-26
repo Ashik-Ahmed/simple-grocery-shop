@@ -1,86 +1,86 @@
 [
   {
     "id": 1,
-    "name": "ULTRABOOST 22 SHOES",
-    "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "name": "Egg 12 pcs",
+    "price": 10,
+    "img": "https://images.pexels.com/photos/4045568/pexels-photo-4045568.jpeg?cs=srgb&dl=pexels-anna-shvets-4045568.jpg&fm=jpg",
     "quantity": 0
   },
   {
     "id": 2,
-    "name": "ULTRABOOST 23 SHOES",
-    "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "name": "Tomato 5kg",
+    "price": 35,
+    "img": "https://images.pexels.com/photos/4022093/pexels-photo-4022093.jpeg?cs=srgb&dl=pexels-karolina-grabowska-4022093.jpg&fm=jpg",
     "quantity": 0
   },
   {
     "id": 3,
-    "name": "ULTRABOOST 24 SHOES",
-    "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "name": "Capsicum 1kg",
+    "price": 18,
+    "img": "https://images.pexels.com/photos/5620899/pexels-photo-5620899.jpeg?cs=srgb&dl=pexels-anna-tarazevich-5620899.jpg&fm=jpg",
     "quantity": 0
   },
   {
     "id": 4,
-    "name": "ULTRABOOST 25 SHOES",
-    "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "name": "Bread ",
+    "price": 8,
+    "img": "https://images.pexels.com/photos/162846/bread-farmer-s-bread-baked-goods-food-162846.jpeg?cs=srgb&dl=pexels-pixabay-162846.jpg&fm=jpg",
     "quantity": 0
   },
   {
     "id": 5,
-    "name": "ULTRABOOST 26 SHOES",
-    "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "name": "Cookies 1kg",
+    "price": 12,
+    "img": "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg?cs=srgb&dl=pexels-lisa-fotios-230325.jpg&fm=jpg",
     "quantity": 0
   },
   {
     "id": 6,
-    "name": "ULTRABOOST 22 SHOES",
-    "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "name": "Chocolate cake",
+    "price": 7,
+    "img": "https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg?cs=srgb&dl=pexels-acharaporn-kamornboonyarush-1028714.jpg&fm=jpg",
     "quantity": 0
   },
   {
     "id": 7,
-    "name": "ULTRABOOST 22 SHOES",
-    "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "name": "Argan Shampoo & Conditiner Combo",
+    "price": 25,
+    "img": "https://images.pexels.com/photos/10427811/pexels-photo-10427811.jpeg?cs=srgb&dl=pexels-frecelynne-roman-10427811.jpg&fm=jpg",
     "quantity": 0
   },
   {
     "id": 8,
-    "name": "ULTRABOOST 22 SHOES",
-    "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "name": "Virgin Olive Oil 1 ltr",
+    "price": 60,
+    "img": "https://images.pexels.com/photos/33783/olive-oil-salad-dressing-cooking-olive.jpg?cs=srgb&dl=pexels-pixabay-33783.jpg&fm=jpg",
     "quantity": 0
   },
   {
     "id": 9,
-    "name": "ULTRABOOST 22 SHOES",
-    "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "name": "Awesome Perfume",
+    "price": 40,
+    "img": "https://images.pexels.com/photos/4110349/pexels-photo-4110349.jpeg?cs=srgb&dl=pexels-anastasiya-lobanovskaya-4110349.jpg&fm=jpg",
     "quantity": 0
   },
   {
     "id": 10,
-    "name": "ULTRABOOST 22 SHOES",
-    "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "name": "Miniket Rice 50kg",
+    "price": 150,
+    "img": "https://images.pexels.com/photos/7421198/pexels-photo-7421198.jpeg?cs=srgb&dl=pexels-vie-studio-7421198.jpg&fm=jpg",
     "quantity": 0
   },
   {
     "id": 11,
-    "name": "ULTRABOOST 22 SHOES",
-    "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "name": "Sugar 5kg",
+    "price": 12,
+    "img": "https://images.pexels.com/photos/678412/pexels-photo-678412.jpeg?cs=srgb&dl=pexels-mareefe-678412.jpg&fm=jpg",
     "quantity": 0
   },
   {
     "id": 12,
-    "name": "ULTRABOOST 22 SHOES",
-    "price": 420,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "name": "Potato 5kg",
+    "price": 8,
+    "img": "https://images.pexels.com/photos/7839484/pexels-photo-7839484.jpeg?cs=srgb&dl=pexels-antara-verma-7839484.jpg&fm=jpg",
     "quantity": 0
   }
 ]
