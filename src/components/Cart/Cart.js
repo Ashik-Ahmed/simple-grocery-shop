@@ -1,9 +1,10 @@
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import RandomItem from '../RandomItem/RandomItem';
 import './Cart.css';
 
-const Cart = ({ cart, randomItemSelector, clearCart }) => {
+const Cart = ({ cart, randomItemSelector, clearCart, randomItem }) => {
 
     // console.log(props.cart);
 
@@ -19,9 +20,11 @@ const Cart = ({ cart, randomItemSelector, clearCart }) => {
                 </div>)
             }
             <div className="d-flex justify-content-center mt-3">
-                <button onClick={randomItemSelector} className='btn btn-info'>Select 1</button>
+                {/* <RandomItem randomItemSelector={randomItemSelector} randomItem={randomItem}></RandomItem> */}
+                <button onClick={randomItemSelector} className='btn btn-info ms-3'>Select 1</button>
                 <button onClick={clearCart} className='btn btn-danger ms-3'>Clear Cart</button>
             </div>
+
         </div>
     );
 };

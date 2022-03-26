@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import Cart from '../../Cart/Cart';
+import { Modal } from 'react-bootstrap';
+import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 
 const Products = () => {
 
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
+    const [randomItem, setRandomItem] = useState([]);
 
     useEffect(() => {
         fetch('products.json')
@@ -18,7 +20,7 @@ const Products = () => {
         if (cart.length <= 3) {
             const cartItems = [...cart, product];
             setCart(cartItems);
-            console.log(cart);
+            // console.log(cart);
 
         }
         else {
@@ -26,10 +28,20 @@ const Products = () => {
         }
     }
 
+    // const deleteFromCart = (id) => {
+    //     const restItems = cart.filter(items => )
+    // }
+
     const randomItemSelector = () => {
         var item = cart[Math.floor(Math.random() * cart.length)];
-        console.log(item);
-        setCart(item);
+        // setRandomItem(item);
+
+        alert(item.name);
+
+        setCart([]);
+        // setCart(item)
+
+        // console.log(item);
         // console.log(cart);
     }
 
@@ -47,7 +59,7 @@ const Products = () => {
                 </div>
             </div>
             <div className="col-12 col-md-3 order-1 bg-warning">
-                <Cart cart={cart} randomItemSelector={randomItemSelector} clearCart={clearCart}></Cart>
+                <Cart cart={cart} randomItem={randomItem} randomItemSelector={randomItemSelector} clearCart={clearCart}></Cart>
             </div>
 
         </div>
