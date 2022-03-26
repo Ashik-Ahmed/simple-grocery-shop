@@ -1,19 +1,20 @@
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import RandomItem from '../RandomItem/RandomItem';
 import './Cart.css';
 
-const Cart = ({ cart, randomItemSelector, clearCart, randomItem }) => {
+const Cart = (props) => {
+
+    const { cart, randomItemSelector, clearCart, itemId } = props;
 
     // console.log(props.cart);
+    console.log(itemId);
 
     return (
         <div className='sticky-top mt-5 pt-5'>
-            <h4 className='py-3 text-center'>Order Summary</h4>
-            <h5>You added: </h5>
+            <h4 className='py-3 text-center'>Cart Summary</h4>
             {
-                cart.map(items => <div className='d-flex bg-info p-2 rounded mt-2'>
+                cart.map(items => <div className='d-flex cart-item p-2 rounded mt-2'>
                     <img className='cart-image' src={items.img} alt="" />
                     <p className='my-auto ms-3'>{items.name}</p>
                     <button className='btn my-auto ms-auto'><FontAwesomeIcon icon={faTrashCan} /></button>

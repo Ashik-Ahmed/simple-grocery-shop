@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { Modal } from 'react-bootstrap';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 
 const Products = () => {
+
+    var itemId;
 
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
@@ -15,8 +16,9 @@ const Products = () => {
             .then(data => setProducts(data))
     }, [])
 
-
     const handleAddToCart = (product) => {
+        itemId = product.id;
+        // console.log(product);
         if (cart.length <= 3) {
             const cartItems = [...cart, product];
             setCart(cartItems);
@@ -24,25 +26,18 @@ const Products = () => {
 
         }
         else {
-            alert("4 Items already added");
+            alert("You cannot add more than 4");
         }
     }
 
-    // const deleteFromCart = (id) => {
-    //     const restItems = cart.filter(items => )
-    // }
-
     const randomItemSelector = () => {
         var item = cart[Math.floor(Math.random() * cart.length)];
-        // setRandomItem(item);
+        setRandomItem(item);
 
-        alert(item.name);
-
+        if (item) {
+            alert(item.name);
+        }
         setCart([]);
-        // setCart(item)
-
-        // console.log(item);
-        // console.log(cart);
     }
 
     const clearCart = () => {
@@ -50,8 +45,9 @@ const Products = () => {
     }
 
     return (
-        <div className='row w-100'>
+        <div className='row w-100 mx-0 mt-5'>
             <div className="col-12 col-md-9 order-12 mx-auto">
+                <h2 className='mt-3'>Shop your daily needs</h2>
                 <div className='row container g-2 mx-auto mt-3'>
                     {
                         products.map(product => <Product key={product.id} product={product} handleAddToCart={handleAddToCart}></Product>)
@@ -59,7 +55,7 @@ const Products = () => {
                 </div>
             </div>
             <div className="col-12 col-md-3 order-1 bg-warning">
-                <Cart cart={cart} randomItem={randomItem} randomItemSelector={randomItemSelector} clearCart={clearCart}></Cart>
+                <Cart itemId={itemId} cart={cart} randomItemSelector={randomItemSelector} clearCart={clearCart}></Cart>
             </div>
 
         </div>

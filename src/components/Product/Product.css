@@ -1,3 +1,11 @@
 .item-container{
     max-width: 290px;
 }
+
+.add-btn{
+    background-color: #FFC107;
+}
+
+.add-btn:hover{
+    background-color: aqua;
+}

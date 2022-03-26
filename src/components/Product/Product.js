@@ -11,13 +11,13 @@ const Product = (props) => {
 
     return (
         <CardGroup className='col-12 col-md-4'>
-            <Card className='item-container'>
+            <Card className='item-container shadow'>
                 <Card.Img className='mx-auto p-1 border border-rounded' variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text><b>Price: ${price}</b></Card.Text>
                 </Card.Body>
-                <Card.Footer onClick={() => handleAddToCart(product)} className='btn text-center bg-warning fw-bold'>Add to Cart <FontAwesomeIcon icon={faShoppingCart} /></Card.Footer>
+                <Card.Footer key={id} onClick={() => handleAddToCart(product)} className='btn text-center add-btn  fw-bold'>Add to Cart <FontAwesomeIcon icon={faShoppingCart} /></Card.Footer>
             </Card>
         </CardGroup >
     );
