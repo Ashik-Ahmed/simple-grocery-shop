@@ -1,15 +1,16 @@
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Button, Card, CardGroup } from 'react-bootstrap';
+import { Card, CardGroup } from 'react-bootstrap';
+import './Product.css'
 
 const Product = (props) => {
 
     const { id, name, price, img } = props.product;
 
     return (
-        <CardGroup className='col-12 col-md-4 mt-5 pt-5'>
-            <Card>
+        <CardGroup className='col-12 col-md-4'>
+            <Card className='item-container'>
                 <Card.Img className='mx-auto p-3 border border-rounded' variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>

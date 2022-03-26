@@ -15,22 +15,38 @@ const Products = () => {
 
 
     const handleAddToCart = (product) => {
-        const cartItems = [...cart, product.name];
-        setCart(cartItems);
+        if (cart.length <= 3) {
+            const cartItems = [...cart, product];
+            setCart(cartItems);
+            // console.log(cart);
+        }
+        else {
+            alert("4 Items already added");
+        }
+    }
+
+    const randomItemSelector = () => {
+        var item = cart[Math.floor(Math.random() * cart.length)];
+        console.log(item);
+        // setCart(item);
         // console.log(cart);
+    }
+
+    const clearCart = () => {
+        setCart([]);
     }
 
     return (
         <div className='row w-100'>
             <div className="col-12 col-md-9 order-sm-12 mx-auto">
-                <div className='row g-4 mt-3'>
+                <div className='row container g-2 mx-auto mt-3'>
                     {
                         products.map(product => <Product key={product.id} product={product} handleAddToCart={handleAddToCart}></Product>)
                     }
                 </div>
             </div>
-            <div className="col-12 col-md-2 order-sm-1 bg-warning">
-                <Cart cart={cart}></Cart>
+            <div className="col-12 col-md-3 order-sm-1 bg-warning">
+                <Cart cart={cart} randomItemSelector={randomItemSelector} clearCart={clearCart}></Cart>
             </div>
 
         </div>
