@@ -18,7 +18,7 @@ const Products = () => {
 
     const handleAddToCart = (product) => {
         itemId = product.id;
-        // console.log(product);
+        // console.log(product.id);
         if (cart.length <= 3) {
             const cartItems = [...cart, product];
             setCart(cartItems);
@@ -50,12 +50,14 @@ const Products = () => {
                 <h2 className='mt-3'>Shop your daily needs</h2>
                 <div className='row container g-2 mx-auto mt-3'>
                     {
-                        products.map(product => <Product key={product.id} product={product} handleAddToCart={handleAddToCart}></Product>)
+                        products.map((product, i) => <Product key={i} product={product} handleAddToCart={handleAddToCart}></Product>)
                     }
                 </div>
             </div>
             <div className="col-12 col-md-3 order-1 bg-warning">
-                <Cart itemId={itemId} cart={cart} randomItemSelector={randomItemSelector} clearCart={clearCart}></Cart>
+
+                <Cart key={itemId} cart={cart} randomItemSelector={randomItemSelector} clearCart={clearCart}></Cart>
+
             </div>
 
         </div>
